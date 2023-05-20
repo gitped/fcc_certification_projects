@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <header>
+    <title>Motas Inc.</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </header>
+  <body>
+    <h1 id="title">MOTAS INCORPORATED.</h1>
+    <p id="description">Hello! We're an inovative tech company and we welcome you for wanting to work with us =)</p>
+    <p id="description2">Please full out this form and we'll get in touch as soon as possible =).</p>
+    <form id="survey-form" action="">
+      <fieldset id="personal-info">
+        <legend>Personal Info</legend>
+        <label id="email-label" for="email"> Email: <input id="email" type="email" placeholder="Enter your email" name="info-email" required/></label>
+        <label id="name-label" for="name"> Name: <input id="name" type="text" placeholder="Enter your name" name="info-name" required /></label>
+        <label id="number-label" for="number"> Age: <input id="number" type="number" min="18" max="65" placeholder="Enter your age" name="info-age" /> </label>
+        <label for="dropdown"> Sex:
+          <select id="dropdown" name="info-sex">
+            <option value="">(Select one)</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id="preferences">
+        <legend>Preferences</legend>
+        <label for="male"> <input id="male" type="radio" name="preferences" value="1"/> Windows </label>
+        <label for="female"> <input id="female" type="radio" name="preferences"/ value="2"> Apple </label>
+        <label for="linux"> <input id="linux" type="radio" name="preferences" value="3"/> Linux </label>
+      </fieldset>
+      <fieldset>
+        <legend>Programming Languages</legend>
+        <label for="python"><input id="python" type="checkbox" name="python" value="1" /> Python </label>
+        <label for="javascript"><input id="javascript" type="checkbox" name="javascript" value="2" /> JavaScript </label>
+        <label for="C"><input id="C" type="checkbox" name="C" value="3" /> C/C++ </label>
+      </fieldset>
+      <textarea placeholder="Tell us about your motivation to work with us."></textarea>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-color:rgb(50,50,225);
+  }
+  
+  label {
+    margin: 1em 0;
+    text-align: center;
+  }
+  
+  #personal-info label {
+    display: block;
+  }
+  
+  input[type="number"] {
+    min-width: 110px;
+  }
+  
+  #preferences label{
+    text-align: center;
+  }
+  
+  #title {
+    color: hsl(0, 100%, 50%);
+    margin: 1em 0;
+    text-align: center;
+  }
+  #description {
+    color: hsl(60, 100%, 50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace, sans-serif;
+  }
+  
+  #description2 {
+    color: hsl(120, 60%, 50%);
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  legend, label {
+    color: hsl(0, 100%, 75%);
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 54%;
+    margin: 10px 23%;
+    height: 5rem;
+  }
+  
+  #submit {
+    width: 25%;
+    height: 2em;
+    margin: auto;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+  }
