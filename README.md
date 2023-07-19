@@ -1,12 +1,12 @@
-## Responsive Web Design certification projects.
+## Certification Projects for freeCodeCamp courses.
 
-1. **Survey Form -** a survey to collect data from candidates for a programming job.
+This repository contains the codes I've personally implemented to complete the freeCodeCamp certification projects in each freeCodeCamp course. I welcome anyone to view its contents in the name of learning and curiosity.
 
-2. **Tribute Page -** a tribute page to myself.
+However, if your intentions are to use this code to bypass your personal learning process and quickly complete the courses with minimal effort, I strongly urge you to to refrain from doing so. Aside from being unethical, you're also limiting your limitless capacity to learn and improve as a human being. So do the right thing!
 
-3. **Technical Documentation Page -** a technical documentation page to serve as a reference for basic python topics.
+Happy coding :)
 
-4. **Product Landing Page -** a product landing page to market pokemon.
 
-5. **Personal Portfolio Webpage -** my own personal portfolio page of software developing projects.
 
+
+*(For more info, visit https://www.freecodecamp.org)*
