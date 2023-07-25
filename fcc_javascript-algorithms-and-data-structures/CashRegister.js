@@ -35,7 +35,7 @@ function checkCashRegister(price, cash, cid) {
   // checks whether the change counted was sufficient, insufficient, or emptied out the drawer
   return changeDue > 0 
   ? { status: "INSUFFICIENT_FUNDS", change: [] }
-  : (changeDue==0 && totalCID==toCents(cash) - toCents(price)) 
+  : (totalCID==toCents(cash) - toCents(price)) 
   ? { status: "CLOSED", change: cid }
   : { status: "OPEN", change: changeCounted };
 }
